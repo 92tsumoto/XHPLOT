@@ -1,0 +1,1 @@
+gcc -O2 -Wall xhplot.o -UVERBOSE -DBSD -c xhplot.c

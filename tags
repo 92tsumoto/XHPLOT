@@ -1,0 +1,53 @@
+arc	xhplot.c	/^arc(ix,iy,width,height,angle1,angle2)$/
+arccoordinate	xhplot.c	/^arccoordinate(ix,iy,xfactor,yfactor,x,y,sv,sc)$/
+arccylcoordinate	xhplot.c	/^arccylcoordinate(ix,iy,xfactor,yfactor,x,y,sv,sc)$/
+arcmagx	xhplot.c	/^arcmagx(x)$/
+arcmagy	xhplot.c	/^arcmagy(y)$/
+arrow	xhplot.c	/^arrow(ix,iy,ver,head,inv)$/
+axes	xhplot.c	/^axes(sv,lav,fi,kse,xfactor,yfactor,sc,la,icol,flag/
+axes_data	xhplot.c	/^axes_data(la,lav,fi,kse,arrowtail,flag)$/
+bitmapout	xhplot.c	/^int bitmapout()$/
+bitmaps	xhplot.c	/^bitmaps(xdest,ydest,width,height,bitmap,xhot,yhot)/
+clipmask	xhplot.c	/^clipmask(n)$/
+cliprectangle	xhplot.c	/^cliprectangle(cp)$/
+coordinate	xhplot.c	/^coordinate(ix,iy,xfactor,yfactor,x,y,sv,sc)$/
+cylaxes	xhplot.c	/^cylaxes(sv,lav,fi,kse,xfactor,yfactor,sc,la,icol,f/
+cylcoordinate	xhplot.c	/^cylcoordinate(ix,iy,xfactor,yfactor,x,y,sv,sc)$/
+cylpoint	xhplot.c	/^cylpoint(xfactor,yfactor,sv,sc,x,y)$/
+data	xhplot.c	/^data(sv,sc,xfactor,yfactor,la,lav,arrowtail)$/
+draw_arrow	xhplot.c	/^draw_arrow(i,s,ix,iy)$/
+drawstring	xhplot.c	/^drawstring()$/
+drawstrings	xhplot.c	/^drawstrings(x,y,string)$/
+fiest	xhplot.c	/^fiest(x)$/
+fill	xhplot.c	/^fill(flag,n,icol)$/
+gfcvt	xhplot.c	/^gfcvt(val,ndigit,s)$/
+init	xhplot.c	/^init()$/
+isgn	xhplot.c	/^isgn(x)$/
+key_in	xhplot.c	/^int key_in()$/
+line	xhplot.c	/^line(ix0,iy0,ix,iy)$/
+lines	xhplot.c	/^lines(n)$/
+linkpoints	xhplot.c	/^linkpoints(n)$/
+magx	xhplot.c	/^magx(x)$/
+magy	xhplot.c	/^magy(y)$/
+mkarrow	xhplot.c	/^mkarrow()$/
+moji	xhplot.c	/^moji(ise,jfx,lbl,lt,t,flag_ur)$/
+no_wait_key	xhplot.c	/^int no_wait_key()$/
+point	xhplot.c	/^point(xfactor,yfactor,sv,sc,x,y)$/
+pointer	xhplot.c	/^pointer(xfactor,yfactor,sv,sc,x,y)$/
+putbitmap	xhplot.c	/^putbitmap()$/
+putpixel	xhplot.c	/^putpixel(ix,iy)$/
+putpixels	xhplot.c	/^putpixels(n)$/
+readbitmap	xhplot.c	/^readbitmap(width,height,bitmap,xhot,yhot)$/
+scalein	xhplot.c	/^scalein(x,y)$/
+set_arrow	xhplot.c	/^set_arrow(ver,head,inv)$/
+set_misc	xhplot.c	/^set_misc(sv,sc,xfactor,yfactor,la,lav,arrowtail)$/
+setarcstruct	xhplot.c	/^setarcstruct(width,height,angle1,angle2)$/
+setcolor	xhplot.c	/^setcolor(icol)$/
+setfont	xhplot.c	/^setfont()$/
+setlineatt	xhplot.c	/^setlineatt()$/
+setpoints	xhplot.c	/^setpoints(ix,iy,n)$/
+setstring	xhplot.c	/^setstring(string)$/
+sgn	xhplot.c	/^sgn(x)$/
+struct2data	xhplot.c	/^struct2data(xddp,sv,sc,la,lav,fi,kse,fontname, arr/
+waitseconds	xhplot.c	/^waitseconds()$/
+xhplot	xhplot.c	/^int xhplot(mode,x,y,icol)$/

@@ -1,0 +1,1 @@
+icc -O2 -parallel -axsse4.2  -msse4.2 -UVERBOSE -DBSD -c xhplot.c
